@@ -62,7 +62,7 @@ _Result of src/App,js_
 ![image](https://user-images.githubusercontent.com/111234771/213956742-dc1a1031-86d2-484a-af7f-6274d0f8342b.png)
 
 
-## Setting Up API request with AXIOS 
+## Setting Up API request with AXIOS / Fetch
 
 **Note:** Sample API
 ```
@@ -72,5 +72,52 @@ https://official-joke-api.appspot.com/random_joke
 **Installation of Axios**
 ```
 npm install axios --save
+```
+
+```
+echo " import React, { useState } from 'react';
+import Axios from 'axios'
+import './App.css';
+
+function App() {
+  //Declaring the state for joke variable
+  const [joke, setJoke] = useState('') 
+
+  // Adding User Function for fetching a Joke using API
+  const getJoke = () => {
+
+  //Option 1- Getting  the data using Axios
+  Axios.get('https://official-joke-api.appspot.com/random_joke').then(
+    (response) => {
+      //console.log(response);
+      // Setting up the result in the joke' state
+      setJoke(response.data.setup + ' ...' + response.data.punchline);
+    }
+  );
+
+    /*
+    //Option 2- Getting the data sing Fetch
+    fetch('https://official-joke-api.appspot.com/random_joke')
+    .then((response) => response.json())
+    .then((data) => {
+      setJoke(data.setup + ' ...'+ data.punchline) ;
+    });
+
+    */
+  };
+
+  return (
+    <div>
+      <h1>This is the 1st Project with Functional Method app</h1>
+      <button onClick={getJoke}>Get the Joke...</button>
+      <hr/>
+      {joke}
+    </div>
+  );
+}
+
+export default App;
+
+" > src/App.js
 ```
 
