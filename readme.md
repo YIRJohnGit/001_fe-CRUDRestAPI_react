@@ -169,6 +169,18 @@ export default App;
 " > src/App.js
 ```
 
+**Run the Application**
+**Note:** 
+- Start the DB Server
+- Start the Backend Application
+- Start the Frontend Application with the following
+```
+npm start
+```
+_Result of Running Applocation_
+![image](https://user-images.githubusercontent.com/111234771/213983786-a04741b0-cb34-45d1-ade6-dd5437f30274.png)
+
+
 # Git Push
 ```
 git init
