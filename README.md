@@ -39,3 +39,25 @@ npm start
 
 **Note:** We suggest that you begin by typing:
 </table>
+
+
+## Setting Up App with functional method
+```
+echo "import logo from './logo.svg';
+import './App.css';
+
+function App() {
+  return (
+    <div className='App'>
+      <h1>This is the 1st Project with Functional Method app</h1>
+    </div>
+  );
+}
+
+export default App;
+
+" > src/App.js
+```
+
+_Result of src/App,js_
+![image](https://user-images.githubusercontent.com/111234771/213956742-dc1a1031-86d2-484a-af7f-6274d0f8342b.png)
