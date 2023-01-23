@@ -60,3 +60,17 @@ export default App;
 
 _Result of src/App,js_
 ![image](https://user-images.githubusercontent.com/111234771/213956742-dc1a1031-86d2-484a-af7f-6274d0f8342b.png)
+
+
+## Setting Up API request with AXIOS 
+
+**Note:** Sample API
+```
+https://official-joke-api.appspot.com/random_joke
+```
+
+**Installation of Axios**
+```
+npm install axios --save
+```
+
