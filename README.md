@@ -25,21 +25,17 @@ npm start
   <td>Command</td> <td>Comments</td>
   </th>
   <tr>
-  <td><pre>npm start</pre></td> <td>Starts the development server.</td>
+    <td><pre>npm start</pre></td> <td>Starts the development server.</td>
   </tr>
- 
+  <tr>
+    <td><pre>npm run build</pre></td> <td>Bundles the app into static files for production.</td>
+  </tr>
+  <tr>
+    <td><pre>npm test</pre></td> <td>Starts the test runner.</td>
+  </tr>
+  <tr>
+    <td><pre>npm run eject</pre></td> <td>Removes this tool and copies build dependencies, configuration files and scripts into the app directory. If you do this, you can’t go back!</td>
+  </tr>
 
-  npm run build
-    Bundles the app into static files for production.
-
-  npm test
-    Starts the test runner.
-
-  npm run eject
-    Removes this tool and copies build dependencies, configuration files
-    and scripts into the app directory. If you do this, you can’t go back!
-
-We suggest that you begin by typing:
-
-  cd 001_fe-crudrestapi_react_v01
-  npm start
+**Note:** We suggest that you begin by typing:
+</table>
