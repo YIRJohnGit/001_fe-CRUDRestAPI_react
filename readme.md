@@ -186,6 +186,6 @@ _Result of Running Applocation_
 git init
 git add .
 git commit -m "push the FE Settup 1st Time"
-remote add YIRJohnGit git@github.com:YIRJohnGit/001_fe-CRUDRestAPI_react.git
+git remote add YIRJohnGit git@github.com:YIRJohnGit/001_fe-CRUDRestAPI_react.git
 git push --set-upstream YIRJohnGit master
 ```
