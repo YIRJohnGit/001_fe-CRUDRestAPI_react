@@ -43,12 +43,11 @@ npm start
 
 ## Setting Up App with functional method
 ```
-echo "import logo from './logo.svg';
-import './App.css';
+echo "import './App.css';
 
 function App() {
   return (
-    <div className='App'>
+    <div>
       <h1>This is the 1st Project with Functional Method app</h1>
     </div>
   );
