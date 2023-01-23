@@ -72,7 +72,7 @@ https://official-joke-api.appspot.com/random_joke
 **Installation of Axios**
 ```
 
-npm install axios cors --save
+npm install axios --save
 ```
 
 ```
